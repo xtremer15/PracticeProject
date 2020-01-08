@@ -1,0 +1,19 @@
+{
+  "name": "practiceproject",
+  "version": "1.0.0",
+  "description": "Practicing FrontEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtremer15/PracticeProject.git"
+  },
+  "author": "Mihai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xtremer15/PracticeProject/issues"
+  },
+  "homepage": "https://github.com/xtremer15/PracticeProject#readme"
+}
