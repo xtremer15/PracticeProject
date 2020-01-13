@@ -135,6 +135,8 @@ a {
 }
 
 #footer .text-center {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
   border-style: double;
   border-color: blueviolet;
   display: inline-block;
@@ -161,7 +163,7 @@ a {
   height: 50px;
 }
 
-#react:hover{
+#react:hover {
   color: rgb(35, 119, 197);
 }
 /* FOOTER END*/
