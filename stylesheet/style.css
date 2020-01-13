@@ -20,6 +20,10 @@ body {
   background-repeat: no-repeat center/cover;
 }
 
+#section-2 {
+  position: relative;
+}
+
 /* HEADER SECTION */
 #header {
   position: relative;
@@ -94,7 +98,7 @@ body {
   font-size: 50px;
 }
 .box-two {
-  position: relative;
+  position: absolute;
   display: inline-block;
   border-style: double;
   border-color: #ffff00;
@@ -109,7 +113,11 @@ a {
   margin-bottom: 40px;
 }
 
-#main .box-two .link {
+#main .button-link {
+
+}
+
+.button-link {
   background-color: #f44336;
   padding: 14px 25px;
   text-decoration: none;
@@ -119,12 +127,20 @@ a {
   height: 50px;
 }
 
+#main .box-two .link {
+  text-decoration: underline;
+}
+
+#main .platform {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 #main .box-two .link:hover {
   background-color: rgba(199, 45, 45, 0.63);
 }
 /* MAIN CENTRAL SECTION END */
 
-/* FOOTER */
+/* BOTTOM SECTION - 1  */
 #footer {
   position: relative;
   border-style: solid;
@@ -166,4 +182,11 @@ a {
 #react:hover {
   color: rgb(35, 119, 197);
 }
-/* FOOTER END*/
+/* BOTTOM SECTION - 1*/
+
+/* SECTION - 2 */
+.title {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* SECTION - 2 END */
