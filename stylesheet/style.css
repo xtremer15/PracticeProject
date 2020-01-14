@@ -13,6 +13,7 @@ body {
   line-height: 1.4;
   clear: both;
 }
+
 #section-1 {
   border-style: double;
   color: #a4a4a4;
@@ -25,6 +26,7 @@ body {
 }
 
 /* HEADER SECTION */
+
 #header {
   position: relative;
   width: 100%;
@@ -50,7 +52,7 @@ body {
 #header li {
   list-style: none;
   display: inline-block;
-  margin: 0 10px 0;
+  padding: 16px 10px;
 }
 
 #header .login {
@@ -63,16 +65,22 @@ body {
   line-height: 3px;
 }
 
-/* ====HEADER SUB-SECTION==== */
-/* HEADER LINKS */
-.header-link:hover {
-  color: #ff0000;
+#header li:hover {
+  background-color: purple;
 }
+
+/* ====HEADER SUB-SECTION==== */
+
+/* HEADER LINKS */
+
+.
+
 /* HEADER LINKS END */
 
 /* HEADER END */
 
 /* MAIN CENTRAL SECTION */
+
 #main {
   position: relative;
   border-style: solid;
@@ -89,20 +97,27 @@ body {
   text-align: center;
   clear: both;
 }
+
 .buildfast {
   font-family: "Merriweather", serif;
   font-size: 50px;
 }
+
 .jsapps {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
 }
+
 .box-two {
-  position: absolute;
+  position: relative;
   display: inline-block;
   border-style: double;
   border-color: #ffff00;
   left: 35%;
+}
+
+ul {
+  margin: 0 auto;
 }
 
 a {
@@ -112,8 +127,6 @@ a {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
-
 
 .button-link {
   background-color: #f44336;
@@ -136,9 +149,11 @@ a {
 #main .box-two .link:hover {
   background-color: rgba(199, 45, 45, 0.63);
 }
+
 /* MAIN CENTRAL SECTION END */
 
 /* BOTTOM SECTION - 1  */
+
 #footer {
   position: relative;
   border-style: solid;
@@ -180,11 +195,14 @@ a {
 #react:hover {
   color: rgb(35, 119, 197);
 }
+
 /* BOTTOM SECTION - 1*/
 
 /* SECTION - 2 */
+
 .title {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 /* SECTION - 2 END */
