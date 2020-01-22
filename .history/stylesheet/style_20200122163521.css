@@ -27,7 +27,7 @@ a {
   background-color: royalblue;
   width: 100px;
   height: 30px;
-  color: #f4f4f4;
+  color:#f4f4f4
 }
 
 /* END */
@@ -90,6 +90,7 @@ h1 {
 }
 
 #navbar div {
+  
   display: flex;
   flex-direction: row-reverse;
 }
@@ -102,17 +103,18 @@ h1 {
 #nav .dropdown-container {
   display: flex;
   flex-direction: column;
-  position: relative;
+  position:relative;
 }
 
 #navbar ul li div {
   display: flex;
   flex-direction: column;
+  
 }
 
 #navbar .dropdown-content {
   display: none;
-  width: 120px;
+  width:120px;
   border-radius: 4px;
 }
 
@@ -124,14 +126,16 @@ h1 {
   text-transform: uppercase;
 }
 
-#navbar .dropdown-container .dropdown-content a:hover {
+#navbar .dropdown-container .dropdown-content a:hover{
   color: lightblue;
 }
 
 #navbar .show {
   display: block;
   position: absolute;
-  background-color: darkblue;
+  background-color: darkblue;  
+
+   
 }
 
 /* NAVBAR - DEVELOPERS - SECTION END */
