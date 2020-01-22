@@ -30,7 +30,7 @@
         </h1>
         <ul>
             <li class="dropdown-container">
-                <button onclick="myFunction()" class="btn">Developers</button>
+                <button onclick="developerSection()" class="btn">Developers</button>
                 <div onmouseleave="hideMenu()" id="myDropdown" class="dropdown-content">
                     <a href="#">Install</a>
                     <a href="#">Guide</a>
@@ -42,7 +42,16 @@
                 </div>
             </li>
             <li> <button onclick="" class="btn">Showcase</button></li>
-            <li> <button onclick="" class="btn">Solutions</button></li>
+            <li class="dropdown-container"> 
+                <button onclick="solutionSection()" class="btn">Solutions</button>
+                <div onmouseleave="hideMe()" id="myDropdown3" class="dropdown-content-3">
+                    <a href="#">Meteor Hosting</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Oficial Partners</a>
+                    <a href="#">Submit Rep</a>
+                    <a href="#">Become a Partner</a>
+                </div>
+            </li>
             <li> <button onclick="" class="btn">Company</button></li>
         </ul>
         <div class="registration">

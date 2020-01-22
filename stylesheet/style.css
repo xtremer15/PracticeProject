@@ -99,6 +99,7 @@ h1 {
 }
 
 /* NAVBAR - DEVELOPERS - SECTION */
+
 #nav .dropdown-container {
   display: flex;
   flex-direction: column;
@@ -135,6 +136,34 @@ h1 {
 }
 
 /* NAVBAR - DEVELOPERS - SECTION END */
+
+/* NAVBAR - SOLUTIONS - SECTION */
+
+#navbar .dropdown-container .dropdown-content-3 a {
+  display: block;
+  border-bottom: 1px solid #0000ff;
+  word-wrap: break-word;
+  color: wheat;
+  text-transform: uppercase;
+}
+
+#navbar .dropdown-container .dropdown-content-3 a:hover {
+  color: lightblue;
+}
+
+#navbar .dropdown-content-3 {
+  display: none;
+  width: 140px;
+  border-radius: 4px;
+}
+
+#navbar .show-3 {
+  display: block;
+  position: absolute;
+  background-color: darkblue;
+}
+
+/* NAVBAR - SOLUTIONS - SECTION END */
 
 /* NAVBAR END */
 
