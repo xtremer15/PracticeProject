@@ -23,10 +23,11 @@ a {
 }
 
 .btn {
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: royalblue;
+  border-radius: 20px;
   width: 100px;
-  height: 30px;
+  height: auto;
 }
 
 /* END */
@@ -57,6 +58,7 @@ a {
 }
 
 #navbar ul li:hover {
+  background-color: darkgray;
   color: #f4f4f4;
 }
 
@@ -89,7 +91,8 @@ h1 {
 }
 
 #navbar div {
-  
+  border-style: double;
+  border-color: #ff0000;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -114,26 +117,20 @@ h1 {
 #navbar .dropdown-content {
   display: none;
   width:120px;
-  border-radius: 4px;
+  
 }
 
 #navbar .dropdown-container .dropdown-content a {
   display: block;
-  border-bottom: 1px solid #0000ff;
+  border-top: 1px solid #0000ff;
   word-wrap: break-word;
-  color: wheat;
-  text-transform: uppercase;
-}
 
-#navbar .dropdown-container .dropdown-content a:hover{
-  color: lightblue;
 }
 
 #navbar .show {
   display: block;
   position: absolute;
-  background-color: darkblue;  
-
+  background-color: dar;  
    
 }
 

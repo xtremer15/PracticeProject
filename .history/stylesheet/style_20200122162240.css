@@ -23,7 +23,7 @@ a {
 }
 
 .btn {
-  border-radius: 8px;
+  border-radius: 20px;
   background-color: royalblue;
   width: 100px;
   height: 30px;
@@ -106,6 +106,8 @@ h1 {
 }
 
 #navbar ul li div {
+  border-style: groove;
+  border-color: teal;
   display: flex;
   flex-direction: column;
   
@@ -114,12 +116,12 @@ h1 {
 #navbar .dropdown-content {
   display: none;
   width:120px;
-  border-radius: 4px;
+  
 }
 
 #navbar .dropdown-container .dropdown-content a {
   display: block;
-  border-bottom: 1px solid #0000ff;
+  border-top: 1px solid #0000ff;
   word-wrap: break-word;
   color: wheat;
   text-transform: uppercase;
@@ -133,7 +135,6 @@ h1 {
   display: block;
   position: absolute;
   background-color: darkblue;  
-
    
 }
 
