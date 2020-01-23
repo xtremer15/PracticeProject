@@ -7,14 +7,14 @@ function developerSection() {
 
 function hideMenu() {
   const element = document.querySelector("#myDropdown");
-  // console.log(element);
+  console.log(element);
   element.classList.remove("show");
 }
 
 // Solutions Section
 function solutionSection() {
   const element = document.querySelector("#myDropdown3");
-  // console.log(element);
+  console.log(element);
   element.classList.toggle("show");
 }
 
@@ -24,16 +24,8 @@ function hideMe() {
 }
 
 
- <button onclick="hide(\"#myDrodpwn\",\"show\")" class="btn">Developers</ button>
-<button onclick="hide(\"#myDrodpwn-3\",\"show\")" class="btn">Solutions</button>
-<button onclick="hideMenu(\"myDrodpwn-3\")" class="btn">Solutions</button>
-<button onclick="hideMenu(element)" class="btn">Solutions</button>
-
-function hideMenu(elementToSelect){
-    // const element = document.getElementById(elementToSelect);
-    hide('#'+elementToSelect,"show")
-}
-  
+{/* <button onclick="hide(\"#myDrodpwn\",\".show\")" class="btn">Developers</button>
+<button onclick="hide(\"#myDrodpwn-3\",\".show-3\")" class="btn">Solutions</button> */}
 
 function hide(elementToSelect,classToRemove){
   const element = document.querySelector(elementToSelect);

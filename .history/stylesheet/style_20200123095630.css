@@ -129,18 +129,15 @@ h1 {
   color: lightblue;
 }
 
+#navbar .show {
+  display: block;
+  position: absolute;
+  background-color: darkblue;
+}
 
 /* NAVBAR - DEVELOPERS - SECTION END */
 
 /* NAVBAR - SOLUTIONS - SECTION */
-
-#navbar .hide {
-  display: none;
-}
-
-#navbar .dropdown-container .dropdown-content-3 a:hover {
-  color: lightblue;
-}
 
 #navbar .dropdown-container .dropdown-content-3 a {
   display: block;
@@ -150,11 +147,18 @@ h1 {
   text-transform: uppercase;
 }
 
+#navbar .dropdown-container .dropdown-content-3 a:hover {
+  color: lightblue;
+}
 
 #navbar .dropdown-content-3 {
-  display: block;
+  display: none;
   width: 140px;
   border-radius: 4px;
+}
+
+#navbar .show-3 {
+  display: block;
   position: absolute;
   background-color: darkblue;
 }
