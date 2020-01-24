@@ -130,13 +130,11 @@ h1 {
 }
 
 
+
 /* NAVBAR - DEVELOPERS - SECTION END */
 
 /* NAVBAR - SOLUTIONS - SECTION */
 
-#navbar .hide {
-  display: none;
-}
 
 #navbar .dropdown-container .dropdown-content-3 a:hover {
   color: lightblue;
@@ -158,6 +156,11 @@ h1 {
   position: absolute;
   background-color: darkblue;
 }
+
+#navbar .hide {
+  display: none;
+}
+
 
 /* NAVBAR - SOLUTIONS - SECTION END */
 
