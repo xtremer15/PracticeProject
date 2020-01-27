@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 function addElement(elementToSelect) {
   add(elementToSelect, "hide")
 }
@@ -17,6 +17,7 @@ function hideMenu(elementToSelect) {
 function hide(elementToSelect, classToRemove) {
   const element = document.getElementById(elementToSelect);
   console.log("Element to select is " + element);
+
   element.classList.remove(classToRemove);
   console.log("Class to remove from the element is " + classToRemove);
 }

@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 function addElement(elementToSelect) {
   add(elementToSelect, "hide")
 }

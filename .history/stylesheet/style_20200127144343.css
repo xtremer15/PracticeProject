@@ -130,13 +130,18 @@ h1 {
   color: lightblue;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> refs/remotes/origin/master
 /* NAVBAR - DEVELOPERS - SECTION END */
 
 /* NAVBAR - SOLUTIONS - SECTION */
 
 
 
-
+>
 #navbar .dropdown-container .dropdown-content-3 a:hover {
   color: lightblue;
 }
