@@ -161,7 +161,7 @@ h1 {
 
 /* dropdown-container */
 #navbar .hide {
-  position: relative;
+  position: fixed;
   display: none;
 }
 
