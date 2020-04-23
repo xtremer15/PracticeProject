@@ -55,6 +55,7 @@ const RENDERED_JS_DOM_ELEMENTS = {
 const DOM_SELECTED_ELEMENTS = {
   nav: document.querySelector(".navigation--bar"),
   ul: document.querySelector(".navigation--bar__list"),
+  divDropdownContainer: document.querySelector(".container--dropdown"),
   ali: document.querySelector(".a"),
   bli: document.querySelector(".b"),
   cli: document.querySelector(".c"),
@@ -76,11 +77,11 @@ console.log(subMenuDevelopers);
 console.log(subMenuHosting);
 console.log(subMenuCompany);
 
+let li;
+
 for (elem in subMenuDevelopers) {
   console.log(subMenuDevelopers[elem]);
-  let li = createElement("li", "class", "dropdown");
-  let div = createElement("div", "class", "container");
+  li = createElement("li", "class", "dropdown");
   li.innerHTML = subMenuDevelopers[elem];
-  div.appendChild(li)
-  DOM_SELECTED_ELEMENTS.ali.appendChild(div);
+  DOM_SELECTED_ELEMENTS.divDropdownContainer.append(li);
 }
