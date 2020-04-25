@@ -134,6 +134,31 @@ h1 {
 
 /* NAVBAR - SOLUTIONS - SECTION */
 
+
+
+
+#navbar .dropdown-container .dropdown-content-3 a:hover {
+  color: lightblue;
+}
+
+#navbar .dropdown-content-3 {
+  background-color: #00b7ff;
+  width: 120px;
+  border-radius: 4px;
+  word-wrap: break-word;
+  color: wheat;
+  text-transform: uppercase;
+  position: fixed;
+}
+#navbar .dropdown-container .dropdown-content-3 a {
+  border-bottom: 1px solid #0000ff;
+}
+
+#navbar .dropdown-container .dropdown-content-3 a:hover {
+  color: lightblue;
+}
+
+
 /* dropdown-container */
 #navbar .hide {
   position: relative;
